@@ -7,6 +7,7 @@
         <result column="user_name" property="userName"></result>
         <result column="user_realname" property="userRealname"></result>
         <result column="user_img" property="userImg"/>
+        <result column="user_password" property="userPassword"/>
     </resultMap>
 
     <select id="queryUserByName" resultMap="userMap">
