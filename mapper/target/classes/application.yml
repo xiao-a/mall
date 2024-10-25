@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    druid:
+      driver-class-name: com.mysql.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/fmmall?characterEncoding=utf-8&serverTimezone=GMT%2B8
+      username: root
+      password: root
+mybatis:
+  mapper-locations: classpath:mppers/*Mapper.xml
+  type-aliases-package: com.qfmall.fmmall.entity
